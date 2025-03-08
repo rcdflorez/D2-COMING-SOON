@@ -87,6 +87,7 @@ body {
 .category {
     background-color: #F7F7F7;
     border-radius: 10px;
+    background-size: cover;
     /*padding: 15px;*/
     width: 160px;
     height: 220px;
@@ -97,12 +98,26 @@ body {
     position: relative;
 }
 
-.category img {
-    margin-top: 20px;
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
+.category.home-appliances {
+    background-image: url("/img/home_appliances.jpeg");
 }
+
+.category.technology {
+    background-image: url("/img/tec.jpeg");
+}
+
+.category.clothing {
+    background-image: url("/img/clothes.jpeg");
+}
+
+.category.personal-care {
+    background-image: url("/img/personal-care.jpeg");
+}
+
+.category.design {
+    background-image: url("/img/design.jpeg");
+}
+
 
 .category-title {
     background-color: #7C1D19;
