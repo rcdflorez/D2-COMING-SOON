@@ -11,7 +11,7 @@ function startCountdown() {
         document.getElementById("days").textContent = Math.floor(difference / (1000 * 60 * 60 * 24));
         document.getElementById("hours").textContent = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         document.getElementById("minutes").textContent = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
-        //document.getElementById("seconds").textContent = Math.floor((difference % (1000 * 60)) / 1000);
+        document.getElementById("seconds").textContent = Math.floor((difference % (1000 * 60)) / 1000);
     }
 
     setInterval(updateCountdown, 1000);
